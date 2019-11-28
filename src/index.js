@@ -1,4 +1,3 @@
-import "index.css";
 import LoadData from "modules/load.js";
 import Modal from "modules/modal.js";
 import ScrollTo from "modules/scrollto.js";
