@@ -1,0 +1,23 @@
+@import url(../header/__top/header__top.css);
+@import url(../header/__title/header__title.css);
+@import url(../header/__content/header__content.css);
+@import url(../header/__item/header__item.css);
+@import url(../header/__info/header__info.css);
+@import url(../header/__scroll/header__scroll.css);
+
+.header {
+  background-image: url(../../images/header.jpg);
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  min-height: 300px;
+  width: 100%;
+  box-sizing: border-box;
+}

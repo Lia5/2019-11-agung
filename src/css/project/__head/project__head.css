@@ -1,0 +1,18 @@
+.project__head {
+  padding: 1rem 2rem;
+  
+}
+.project__head .project__title {
+  margin-top: -40px;
+}
+@media screen and (max-width: 1050px) {
+  .project__head .project__title {
+    margin-top: -1rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .project__head {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}

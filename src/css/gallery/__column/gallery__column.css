@@ -1,0 +1,10 @@
+.gallery__column{
+  max-width: 50%;
+  width: 50%;
+}
+@media screen and (max-width: 576px) {
+  .gallery__column {
+    max-width: 100%;
+    width: 100%;
+  }
+}

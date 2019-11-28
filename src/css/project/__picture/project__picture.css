@@ -1,0 +1,18 @@
+.project__picture {
+  display: block;
+}
+.project__picture-about  {
+  margin: 13px 24px;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000;
+  background: #737378;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 576px) {
+  .project__picture-about  { 
+    margin: 8px 15px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+}

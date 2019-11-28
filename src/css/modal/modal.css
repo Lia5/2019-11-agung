@@ -1,0 +1,33 @@
+@import url(../modal/__head/modal__head.css);
+@import url(../modal/__body/modal__body.css);
+@import url(../modal/__foot/modal__foot.css);
+@import url(../modal/__title/modal__title.css);
+@import url(../modal/__item/modal__item.css);
+@import url(../modal/__paragraph/modal__paragraph.css);
+@import url(../modal/__list/modal__list.css);
+@import url(../modal/__list-item/modal__list-item.css);
+
+
+.modal {
+  background-color: #737378;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transform: translateY(200%);
+  transition: transform .5s ease-in;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 100%;
+  opacity: 0;
+}
+
+.modal--open {
+  opacity: 1;
+  transform: translateY(0%);
+  z-index: 999;
+}

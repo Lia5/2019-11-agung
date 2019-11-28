@@ -1,0 +1,23 @@
+.modal__item {
+  max-width: 65%;
+  margin-bottom: 80px;
+}
+.modal__item+.modal__item {
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+.modal__head {
+  width: 100%;
+  width: calc(100% - 10px);
+  margin: 5px 5px 0;
+}
+@media screen and (max-width: 576px) {
+  .modal__item {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+  .modal__item+.modal__item {
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+}
