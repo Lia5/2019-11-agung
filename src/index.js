@@ -1,8 +1,8 @@
-import "./index.css";
-import LoadData from "./modules/load.js";
-import Modal from "./modules/modal.js";
-import ScrollTo from "./modules/scrollto.js";
-import Projects from "./modules/projects.js";
+import "index.css";
+import LoadData from "modules/load.js";
+import Modal from "modules/modal.js";
+import ScrollTo from "modules/scrollto.js";
+import Projects from "modules/projects.js";
 
 
 // preloader
