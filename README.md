@@ -2,7 +2,7 @@
 
 Верстка не моя, мои правки
 
-<a href="https://lia5.github.io/2019-11-agung/"> Страница </a>
+<a href="https://lia5.github.io/2019-11-agung/dist/"> Страница </a>
 
 
 # Agung Agency
