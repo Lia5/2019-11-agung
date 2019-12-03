@@ -1,6 +1,6 @@
 .header__scroll {
   position: absolute;
-  /* bottom: 0; */
-  top: calc(100vh - 32px);
+  bottom: 0;
+  /* top: calc(100vh - 32px); */
   left: 0;
 }
