@@ -19,3 +19,8 @@
   /* color: #fff;
   background-color: #000; */
 }
+@media screen and (max-width: 576px) {
+  .project__btn {
+    padding: 11px 7px 7px;
+  }
+}

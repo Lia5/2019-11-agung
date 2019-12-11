@@ -17,8 +17,13 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
-  height: calc(100vh - 55px);
   min-height: 300px;
   width: 100%;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 576px) {
+.header {
+    height: calc(100vh - 55px);
+  }
 }
