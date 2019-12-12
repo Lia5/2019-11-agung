@@ -16,10 +16,11 @@
 }
 @media screen and (max-width: 576px) {
   .footer__item {
-    padding: 0 15px;
+    padding: 0 16px 3px;
+    font-size: 13px;
   }
   .footer__copy {
-    padding: 0px 15px 0;
+    padding: 0 15px;
     margin-top: 36px;
   }
 }
