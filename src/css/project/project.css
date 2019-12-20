@@ -18,7 +18,7 @@
   transition: max-height 1s ease-in-out;
 }
 
-.project--active .project__foot {
+/* .project--active .project__foot {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
+} */

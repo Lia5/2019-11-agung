@@ -1,5 +1,5 @@
 .project__foot {
-  padding: 0 2rem 3rem;
+  /* padding: 0 2rem 3rem; */
   text-align: center;
 }
 .project__foot .project__btn {
@@ -7,8 +7,8 @@
 }
 @media screen and (max-width: 576px) {
   .project__foot {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
     padding-bottom: 0;
   }
 }
