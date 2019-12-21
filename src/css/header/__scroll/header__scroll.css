@@ -1,7 +1,7 @@
 .header__scroll {
   /* position: absolute; */
   margin-top: auto;
-  bottom: 0;
+  /* bottom: 0; */
   /* top: calc(100vh - 32px); */
-  left: 0;
+  /* left: 0; */
 }
