@@ -10,7 +10,7 @@
   background-color: #000;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
   position: relative;
   display: -webkit-box;
@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 576px) {
 .header {
-    height: calc(100vh - 55px);
-    background-attachment: unset;
+    /* height: calc(100vh - 55px); */
+    /* background-attachment: unset; */
   }
 }
