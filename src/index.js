@@ -53,3 +53,5 @@ function transformHeaderTop(){
 }
 
 window.addEventListener('scroll', transformHeaderTop);
+
+document.querySelector('.header').style.height = window.innerHeight;
