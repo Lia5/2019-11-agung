@@ -5,6 +5,9 @@
   width: 33.333%;
   box-sizing: border-box;
 }
+.header__item:first-child {
+  text-align: center;
+}
 
 .header__item:last-of-type {
   text-align: right;

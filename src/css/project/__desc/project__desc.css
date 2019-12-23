@@ -2,6 +2,10 @@
   max-width: 50%;
   padding: 0 2rem 2rem;
 }
+.project__center-txt {
+  text-transform: uppercase;
+  text-align: center;
+}
 
 @media screen and (max-width: 991px) {
   .project__desc {

@@ -1,14 +1,9 @@
 .project__head {
-  padding: 1rem 2rem;
-  
+  padding: 10px 21px 65px;
 }
-.project__head .project__title {
-  margin-top: -40px;
-}
+
 @media screen and (max-width: 1050px) {
-  .project__head .project__title {
-    margin-top: -1rem;
-  }
+
 }
 @media screen and (max-width: 576px) {
   .project__head {
