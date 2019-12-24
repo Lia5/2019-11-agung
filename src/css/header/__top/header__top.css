@@ -35,8 +35,13 @@
 
 .header__top--transform .header__item:last-of-type {
   text-align: left;
+  display: block;
 }
-
+@media screen and (max-width: 1439px) {
+  .header__top--transform .header__item:last-of-type {
+    padding-left: .75rem;
+  }
+}
 @media screen and (max-width: 576px) {
   .header__top--transform .header__title {
     font-size: 5vw;

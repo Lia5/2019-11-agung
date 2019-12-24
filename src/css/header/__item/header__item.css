@@ -13,10 +13,21 @@
   text-align: right;
 }
 
+@media screen and (max-width: 1439px) {
+  .header__item {
+    width: 100%;
+    max-width: 100%;;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-top: 24px;
+  }
+  .header__item:last-of-type {
+    display: none;  
+  }
+}
 @media screen and (max-width: 576px) {
   .header__item {
     padding-top: 0;
     max-width: 100%;
-    width: auto;
   }
 }
