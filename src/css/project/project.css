@@ -14,7 +14,7 @@
 }
 
 .project--active .project__body {
-  max-height: 5000px;
+  max-height: none;
   transition: max-height 1s ease-in-out;
 }
 
