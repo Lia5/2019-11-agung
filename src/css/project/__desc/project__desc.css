@@ -18,14 +18,18 @@
   .project__center-txt {
     padding: 5px 15px;
   }
+  .project__picture-about--desctop {
+    display: none;
+  }
   .project__center-txt--mob {
     display: block;
+    padding: 5px 15px;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
   }
   .project__desc {
     padding: 17px 15px 137px;
-  }
-  .project__desc {
-    
     max-width: 100%;
   }
 }
