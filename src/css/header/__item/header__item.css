@@ -24,6 +24,9 @@
   .header__item:last-of-type {
     display: none;  
   }
+  .header__content:before {
+    content: none;
+  }
 }
 @media screen and (max-width: 576px) {
   .header__item {
