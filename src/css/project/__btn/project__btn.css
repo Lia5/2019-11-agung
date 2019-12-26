@@ -1,7 +1,8 @@
 .project__btn {
   display: inline-block;
   vertical-align: top;
-  padding: 16px 16px 47px;
+  padding: 16px;
+  margin-bottom: 31px;
   background-color: transparent;
   color: #000;
   border: 1px solid #000;
@@ -27,5 +28,6 @@
 @media screen and (max-width: 576px) {
   .project__btn {
     padding: 11px 7px 7px;
+    margin-bottom: 0;
   }
 }

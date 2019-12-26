@@ -4,8 +4,9 @@
   /* margin: 1.5rem 0; */
 }
 .footer__copy {
+  font-size: 26px;
   padding: 30px 30px 0;
-  margin-top: 210px;
+  margin-top: 103px;
 }
 @media screen and (max-width: 991px) {
   .footer__item {
@@ -20,7 +21,8 @@
     font-size: 13px;
   }
   .footer__copy {
+    font-size: 12px;
     padding: 0 15px;
-    margin-top: 72px;
+    margin-top: 36px;
   }
 }

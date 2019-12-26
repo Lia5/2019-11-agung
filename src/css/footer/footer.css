@@ -4,8 +4,7 @@
 
 
 .footer {
-  padding: 3rem 0 5rem;
-  padding-top: 40vh;
+  padding: 40vh 0 34px;
   font-size: 34px;
 }
 
@@ -17,14 +16,14 @@
 
 @media screen and (max-width: 1024px) {
   .footer {
-    font-size: 14px;
-    padding-bottom: 4rem;
+    font-size: 16px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .footer {
-    font-size: 12px;
+    font-size: 14px;
     padding-top: 213px;
+    padding-bottom: 11px;
   }
 }
