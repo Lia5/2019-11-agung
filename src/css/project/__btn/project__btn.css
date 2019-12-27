@@ -30,4 +30,7 @@
     padding: 11px 7px 7px;
     margin-bottom: 0;
   }
+  .project__btn--active {
+    padding: 7px;
+  }
 }
