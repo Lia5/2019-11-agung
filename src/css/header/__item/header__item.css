@@ -7,6 +7,7 @@
 }
 .header__item:first-child {
   text-align: center;
+  min-width: 740px;
 }
 
 .header__item:last-of-type {
@@ -21,8 +22,14 @@
     padding-right: 31px;
     padding-top: 24px;
   }
+  .header__item:first-child {
+    min-width: auto;
+  }
   .header__item:last-of-type {
-    display: none;  
+    /* display: none;   */
+    position: absolute;
+    right: 0;
+    bottom: 0;
   }
   .header__content:before {
     content: none;
@@ -30,7 +37,10 @@
 }
 @media screen and (max-width: 576px) {
   .header__item {
-    padding-top: 0;
+    /* padding-top: 0; */
     max-width: 100%;
+  }
+  .header__item:last-of-type {
+    display: none;  
   }
 }

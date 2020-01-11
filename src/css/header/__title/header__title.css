@@ -1,21 +1,18 @@
 .header__title {
-  padding: 35px 34px 0px;
-    letter-spacing: 5px;
+  /* padding: 35px 34px 0px;
+    letter-spacing: 5px; */
   white-space: nowrap;
   font-size: 13vw;
-  line-height: 1;
+  /* line-height: 1; */
   /* text-align: center; */
   text-transform: uppercase;
   margin: 0 0 4.5rem;
   font-weight: 500;
   transition: font-size .5s ease;
-}
-@media screen and (max-width: 2500px) {
-  .header__title {
+
     padding: 3px 21px 22px;
     letter-spacing: 4px;
     line-height: .7;
-  }
 }
 @media screen and (max-width: 1919px) {
   .header__title {

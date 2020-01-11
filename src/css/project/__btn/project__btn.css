@@ -20,10 +20,12 @@
 .project__btn:active {
   /* color: #fff;
   background-color: #000; */
-  background: #87878C;
+  /* background: #87878C; */
 }
 .project__btn--active {
   padding: 7px;
+  margin-bottom: 0;
+  background: #87878C;
 }
 @media screen and (max-width: 576px) {
   .project__btn {
@@ -31,6 +33,6 @@
     margin-bottom: 0;
   }
   .project__btn--active {
-    padding: 7px;
+    padding: 8px;
   }
 }

@@ -7,8 +7,13 @@
   width: calc(100% - 10px); */
   margin: 5px 5px 0;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1920px) {
   .modal__head {
-    padding: 5px 10px 25px;
+    padding: 9px 26px 14px;
+  }
+}
+@media screen and (max-width: 1429px) {
+  .modal__head {
+    padding: 7px 26px 11px;
   }
 }
