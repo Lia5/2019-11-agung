@@ -43,4 +43,9 @@
   .header__item:last-of-type {
     display: none;  
   }
+  .header__item:first-child {
+    padding-top: 22px;
+    padding-bottom: 7px;
+    padding-left: 23px;
+  }
 }

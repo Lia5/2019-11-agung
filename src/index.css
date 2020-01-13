@@ -38,4 +38,5 @@ html, body {
 body {
   background: #737378;
   width: 100vw;
+  overflow-x: hidden;
 }

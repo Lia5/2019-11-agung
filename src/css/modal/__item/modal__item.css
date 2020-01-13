@@ -10,10 +10,10 @@
 @media screen and (max-width: 576px) {
   .modal__item {
     max-width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 18px;
   }
   .modal__item+.modal__item {
-    margin-top: 2rem;
+    margin-top: 10px;
     margin-bottom: 0;
   }
 }
